@@ -17,7 +17,7 @@
 *.pdb
 bin/
 obj/
-.vs\MyTODO\v17\
+.vs/MyTODO/v17
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
