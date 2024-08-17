@@ -12,6 +12,9 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.cache
+*.dll
+*.pdb
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -36,8 +39,7 @@ bld/
 [Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
-#.vs/
-.vs\
+.vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
@@ -483,11 +485,3 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
-
-#remove all other  executable files
-
-*.dll
-*.cache
-*.pdb
-*.cs
-*.suo
