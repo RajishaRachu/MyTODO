@@ -20,6 +20,7 @@ obj/
 .vs/MyTODO/v17
 MyTODO/obj/Debug
 .vs/ProjectEvalution
+.vs/*
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
