@@ -5,11 +5,17 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MyTODO"
     Shell.FlyoutBehavior="Disabled"
-    Title="MyTODO">
+    Title="MyTODO"
+    xmlns:views="clr-namespace:MyTODO.View"
+    xmlns:toolkit="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui">
+
+    <Shell.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="{StaticResource YellowShade}"/>
+    </Shell.Behaviors>
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate views:MyTODOPage}"
         Route="MainPage" />
 
 </Shell>
